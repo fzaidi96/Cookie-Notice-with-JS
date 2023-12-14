@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    color: tomato;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+body.dark {
+    background-color: grey;
+}
+
+header.dark {
+    background-color: midnightblue;
+    color: white;
+}
+
+#cookie-notice {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: plum;
+    color: #fff;
+    width: 300px;
+    border-radius: 20px;
+    padding: 1rem;
+  }
+
+
+p {
+    padding-bottom: 1rem;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+  }
+  
